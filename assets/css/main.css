@@ -119,6 +119,7 @@
 
 .header__qr-link:nth-child(2) {
     margin-right: 11px;
+    transform: translateY(-1px);
 }
 
 .header__qr-download-img {
@@ -186,13 +187,15 @@
 .header__notify-name {
     display: block;
     font-size: 1.4rem;
-    color: var(--black-color);
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.8rem;
 }
 
 .header__notify-description {
     font-size: 1.2rem;
     color: #756f6e;
-    margin-top: 1.8rem;
+    margin-top: 4px;
     line-height: 1.4rem;
 }
 
@@ -204,5 +207,5 @@
 .header__notify-footer-btn {
     text-decoration: none;
     color: var(--text-color);
-    padding: 4px 16px;
+    padding: 16px 16px;
 }
