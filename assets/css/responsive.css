@@ -62,6 +62,10 @@
 
 /* MOBILE */
 @media (max-width: 739px) {
+    .app__content {
+        margin: 0 4px;
+    }
+
     .hide-on-mobile {
         display: none;
     }
@@ -89,6 +93,24 @@
         padding: 0 16px;
         animation: mobileSearchSideIn linear 0.3s;
         display: none;
+    }
+
+    .pagination-item__link {
+        --height: 30px;
+        display: block;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #939393;
+        min-width: 40px;
+        height: var(--height);
+        text-align: center;
+        line-height: var(--height);
+        border-radius: 2px;
+    }
+
+    .pagination-item {
+        margin: 0;
     }
 
     @keyframes mobileSearchSideIn {
