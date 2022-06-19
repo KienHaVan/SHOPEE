@@ -845,7 +845,7 @@
 .header__sort-link::after {
     content: "";
     position: absolute;
-    top: 94%;
+    top: 95%;
     left: 0;
     height: 3px;
     width: 100%;
