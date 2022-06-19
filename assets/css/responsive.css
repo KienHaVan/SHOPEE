@@ -45,6 +45,14 @@
     .header__sort-bar {
         display: flex;
     }
+
+    .app__content {
+        padding-top: 8px;
+    }
+
+    .mobile-category {
+        display: block;
+    }
 }
 
 /* TABLET */
@@ -95,6 +103,14 @@
         display: none;
     }
 
+    .header__search-option {
+        top: 96%;
+    }
+
+    .header__mobile-search {
+        display: block;
+    }
+
     .pagination-item__link {
         --height: 30px;
         display: block;
@@ -111,6 +127,14 @@
 
     .pagination-item {
         margin: 0;
+    }
+
+    .header__logo-img {
+        width: 110px;
+    }
+
+    .footer__content {
+        padding: 0 16px;
     }
 
     @keyframes mobileSearchSideIn {
